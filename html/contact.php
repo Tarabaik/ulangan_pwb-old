@@ -1,7 +1,7 @@
 <?php
 // untuk mengoneksi data base
-require '../php/koneksi.php';
-require '../php/function.php';
+require 'koneksi.php';
+require 'function.php';
 // untuk mengatur fungsi
 if( isset($_POST["submit"])) {
    //validator
