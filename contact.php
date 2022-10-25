@@ -1,11 +1,26 @@
 
+<?php
+require 'functions.php';
+
+if( isset($_POST["REGISTER"])) {
+
+    if(contact($_POST) > 0 ) {
+        echo "<script>
+        alert('user baru berhasil ditambahkan!');
+        </script>";
+
+    } else {
+        echo mysqli_error($conn);
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="css/master.css">
     <title>SURYA</title>
 </head>
 <body>

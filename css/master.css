@@ -200,6 +200,10 @@ main{
     width: 250px;
 }
 
+#input {
+    margin-top: 1em;
+}
+
 /* about me */
 #main_abo article h1 {
     background-color: #06283D;
