@@ -160,6 +160,12 @@ main{
 }
 
 /* form styling in contac */
+#button-sb  {
+    margin-top: 1em;
+    padding:1em ;
+    background-color: white;
+    border-radius:10px ;
+}
 #main_con {
     max-width: min-content;
 }
